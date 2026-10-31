@@ -1,0 +1,11 @@
+[package]
+name = "png-compare"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Compare two PNGs channel by channel, or report a picture's colour cast per brightness band"
+license = "MIT"
+repository = "https://github.com/insideTheFlux/png-compare"
+
+[dependencies]
+png = "0.18"
